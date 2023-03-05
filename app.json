@@ -1,5 +1,11 @@
 {
   "expo": {
+    "android": {
+      "permissions": [
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    },
     "name": "myPdfProject",
     "slug": "myPdfProject",
     "version": "1.0.0",
@@ -21,7 +27,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.zinki.mobileapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
